@@ -62,7 +62,7 @@ def victory_message():
     if your_hero['health']<=0:
         print('Your journey ends here. Your bones are swept clean by the desert sands. Press continue to continue')
     else:print("Your foes lie defeated. You win or something.")
-#The small cycle of functions contained in run_game...run the game. 
+#The small cycle of functions contained in run_game...run the game. Please see below comments on specifics. 
 def run_game():
 #Starts the game with a message to the user
     greeting_message()
