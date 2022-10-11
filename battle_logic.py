@@ -49,13 +49,6 @@ def fight_loop(monster_list):
             return
         elif len(monster_list) == 0:
             print("Your foes lie defeated. You win or something.")
-        # # HERO gets attack first
-        # did_attack_num = random.randint(0, 10)
-        # if (did_attack_num > 3):
-        #     # hero attack hit!
-        # did_attack_num = random.randint(0, 10)
-        # if(did_attack_num >= 5):
-        #     # villian
 def greeting_message():
     print('Good luck adventurer! You are without gold and alone, luck is all you have...')
 def victory_message():
