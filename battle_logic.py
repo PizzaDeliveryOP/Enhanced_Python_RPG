@@ -1,6 +1,7 @@
 #Imports all the necessary items for this code. The code should import everything with import *. Sometimes it 
 #does not. To appease the dark spirits that run python, do not remove the 'import name' section. It should 
-#not be needed, but when you remove it the program sometimes crashes. 
+#not be needed, but when you remove it the program sometimes crashes. The crash occurs because the hero inventory
+#is not brought in when the program brings in everything. The hero inventory is included in 'everything.'
 from unicodedata import name
 from characters import *
 import random
