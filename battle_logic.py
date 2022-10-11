@@ -23,6 +23,8 @@ def fight_loop(monster_list):
         current_monster['health'] -= random_attack[1]
         if current_monster['health']<= 0:
             print('Your foe the', current_monster['name'], 'lies dead. Steel yourself for the next one.')
+            #covers each of the types of currency being added to the hero inventory. There is a more sophisticated
+            #way to manage this, but the code works and is consistent. 
             your_hero['coins']['copper']+=current_monster['coins']['copper']
             your_hero['coins']['silver']+=current_monster['coins']['silver']
             your_hero['coins']['gold']+=current_monster['coins']['gold']
