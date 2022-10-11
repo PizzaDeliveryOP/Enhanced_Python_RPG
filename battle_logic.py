@@ -5,7 +5,8 @@ from unicodedata import name
 from characters import *
 import random
 #We do not talk about fight loop. We do describe it in the comments. This code takes the enemy dictionary 
-#and prepares it to be "fought" against by the hero dictionary. 
+#and prepares it to be "fought" against by the hero dictionary. All this talk of dictionaries fighting each other
+#implies a better game/series than I have any reason to invent. 
 def fight_loop(monster_list):
     while len(monster_list) > 0:
         current_monster = monster_list[0]
